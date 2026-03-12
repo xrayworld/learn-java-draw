@@ -1,6 +1,6 @@
 <h1 align="center">
 $\Huge \substack{ 
-\color{#FF5500}{\textsf{Java}} \\ 
+\color{#FF5500}{\textsf{Tutorial - Java}} \\ 
 \color{#555555}{\pmb{\texttt{Illustration with}}} \\ 
 \color{#555555}{\texttt{System.out.println();}} 
 }$

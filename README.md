@@ -1,10 +1,5 @@
-<h1 align="center">
-$\Huge \substack{ 
-\color{#FF5500}{\textsf{Tutorial - Java}} \\ 
-\color{#555555}{\pmb{\texttt{Illustration with}}} \\ 
-\color{#555555}{\texttt{System.out.println();}} 
-}$
-</h1>
+<h1 align="center">Tutorial</h1>
+<h1 align="center" style="color: #FF5500;">Java illustration</h1>
 
 <p align="center"> <img src="solidsnake.png" alt="Solid Snake APP Logo" width="555"> </p>
 

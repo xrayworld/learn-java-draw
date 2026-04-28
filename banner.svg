@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240">
+  <defs>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softglow" x="-10%" y="-50%" width="120%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Main dark background -->
+  <rect width="800" height="240" fill="#0d1117" rx="12" ry="12"/>
+
+  <!-- Title bar -->
+  <rect width="800" height="38" fill="#161b22" rx="12" ry="12"/>
+  <rect y="26" width="800" height="12" fill="#161b22"/>
+  <line x1="0" y1="38" x2="800" y2="38" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Traffic lights -->
+  <circle cx="22" cy="19" r="6" fill="#ff5f57" filter="url(#softglow)"/>
+  <circle cx="43" cy="19" r="6" fill="#febc2e" filter="url(#softglow)"/>
+  <circle cx="64" cy="19" r="6" fill="#28c840" filter="url(#softglow)"/>
+
+  <!-- Title bar text -->
+  <text x="400" y="24" text-anchor="middle" fill="#8b949e"
+        font-family="'Courier New', Courier, monospace" font-size="12">
+    SolidSnake.java — Java Terminal Pixel Art · x-ray.world
+  </text>
+
+  <!-- ── ROW 0  rgb(255, 50, 50) RED ── -->
+  <g opacity="0">
+    <animate attributeName="opacity" dur="7s" repeatCount="indefinite"
+             values="0;1;1;0;0"
+             keyTimes="0;0.05;0.72;0.82;1"/>
+    <rect x="8" y="42" width="784" height="22" fill="rgb(255,50,50)" rx="2" filter="url(#glow)"/>
+    <text x="24" y="57" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(255,255,255,0.80)">"\033[48;2;</text>
+    <text x="116" y="57" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(255,255,255,1)" font-weight="bold">255</text>
+    <text x="143" y="57" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(255,255,255,0.80)">;50;50m"</text>
+    <text x="680" y="57" text-anchor="end" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(255,255,255,0.65)">· RED</text>
+  </g>
+
+  <!-- ── ROW 1  rgb(255, 140, 0) ORANGE ── -->
+  <g opacity="0">
+    <animate attributeName="opacity" dur="7s" repeatCount="indefinite"
+             values="0;0;1;1;0;0"
+             keyTimes="0;0.05;0.10;0.72;0.82;1"/>
+    <rect x="8" y="66" width="750" height="22" fill="rgb(255,140,0)" rx="2" filter="url(#glow)"/>
+    <text x="24" y="81" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(0,0,0,0.70)">"\033[48;2;</text>
+    <text x="116" y="81" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(0,0,0,0.90)" font-weight="bold">255;140;0</text>
+    <text x="194" y="81" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(0,0,0,0.70)">m"</text>
+    <text x="640" y="81" text-anchor="end" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(0,0,0,0.50)">· ORANGE</text>
+  </g>
+
+  <!-- ── ROW 2  rgb(255, 255, 0) YELLOW ── -->
+  <g opacity="0">
+    <animate attributeName="opacity" dur="7s" repeatCount="indefinite"
+             values="0;0;1;1;0;0"
+             keyTimes="0;0.10;0.15;0.72;0.82;1"/>
+    <rect x="8" y="90" width="784" height="22" fill="rgb(255,255,0)" rx="2" filter="url(#glow)"/>
+    <text x="24" y="105" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(0,0,0,0.70)">"\033[48;2;</text>
+    <text x="116" y="105" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(0,0,0,0.90)" font-weight="bold">255;255;0</text>
+    <text x="194" y="105" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(0,0,0,0.70)">m"</text>
+    <text x="680" y="105" text-anchor="end" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(0,0,0,0.50)">· YELLOW</text>
+  </g>
+
+  <!-- ── ROW 3  rgb(50, 230, 50) GREEN ── -->
+  <g opacity="0">
+    <animate attributeName="opacity" dur="7s" repeatCount="indefinite"
+             values="0;0;1;1;0;0"
+             keyTimes="0;0.15;0.20;0.72;0.82;1"/>
+    <rect x="8" y="114" width="710" height="22" fill="rgb(50,230,50)" rx="2" filter="url(#glow)"/>
+    <text x="24" y="129" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(0,0,0,0.70)">"\033[48;2;</text>
+    <text x="116" y="129" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(0,0,0,0.90)" font-weight="bold">50;230;50</text>
+    <text x="194" y="129" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(0,0,0,0.70)">m"</text>
+    <text x="600" y="129" text-anchor="end" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(0,0,0,0.50)">· GREEN</text>
+  </g>
+
+  <!-- ── ROW 4  rgb(0, 240, 200) CYAN ── -->
+  <g opacity="0">
+    <animate attributeName="opacity" dur="7s" repeatCount="indefinite"
+             values="0;0;1;1;0;0"
+             keyTimes="0;0.20;0.25;0.72;0.82;1"/>
+    <rect x="8" y="138" width="784" height="22" fill="rgb(0,240,200)" rx="2" filter="url(#glow)"/>
+    <text x="24" y="153" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(0,0,0,0.70)">"\033[48;2;</text>
+    <text x="116" y="153" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(0,0,0,0.90)" font-weight="bold">0;240;200</text>
+    <text x="194" y="153" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(0,0,0,0.70)">m"</text>
+    <text x="680" y="153" text-anchor="end" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(0,0,0,0.50)">· CYAN</text>
+  </g>
+
+  <!-- ── ROW 5  rgb(50, 140, 255) BLUE ── -->
+  <g opacity="0">
+    <animate attributeName="opacity" dur="7s" repeatCount="indefinite"
+             values="0;0;1;1;0;0"
+             keyTimes="0;0.25;0.30;0.72;0.82;1"/>
+    <rect x="8" y="162" width="740" height="22" fill="rgb(50,140,255)" rx="2" filter="url(#glow)"/>
+    <text x="24" y="177" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(255,255,255,0.80)">"\033[48;2;</text>
+    <text x="116" y="177" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(255,255,255,1)" font-weight="bold">50;140;255</text>
+    <text x="200" y="177" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(255,255,255,0.80)">m"</text>
+    <text x="630" y="177" text-anchor="end" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(255,255,255,0.55)">· BLUE</text>
+  </g>
+
+  <!-- ── ROW 6  rgb(160, 50, 255) PURPLE ── -->
+  <g opacity="0">
+    <animate attributeName="opacity" dur="7s" repeatCount="indefinite"
+             values="0;0;1;1;0;0"
+             keyTimes="0;0.30;0.35;0.72;0.82;1"/>
+    <rect x="8" y="186" width="784" height="22" fill="rgb(160,50,255)" rx="2" filter="url(#glow)"/>
+    <text x="24" y="201" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(255,255,255,0.80)">"\033[48;2;</text>
+    <text x="116" y="201" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(255,255,255,1)" font-weight="bold">160;50;255</text>
+    <text x="200" y="201" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(255,255,255,0.80)">m"</text>
+    <text x="680" y="201" text-anchor="end" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(255,255,255,0.55)">· PURPLE</text>
+  </g>
+
+  <!-- ── ROW 7  rgb(255, 50, 180) MAGENTA ── -->
+  <g opacity="0">
+    <animate attributeName="opacity" dur="7s" repeatCount="indefinite"
+             values="0;0;1;1;0;0"
+             keyTimes="0;0.35;0.40;0.72;0.82;1"/>
+    <rect x="8" y="210" width="760" height="22" fill="rgb(255,50,180)" rx="2" filter="url(#glow)"/>
+    <text x="24" y="225" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(255,255,255,0.80)">"\033[48;2;</text>
+    <text x="116" y="225" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(255,255,255,1)" font-weight="bold">255;50;180</text>
+    <text x="200" y="225" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(255,255,255,0.80)">m"</text>
+    <text x="650" y="225" text-anchor="end" font-family="'Courier New',Courier,monospace" font-size="11" fill="rgba(255,255,255,0.55)">· MAGENTA</text>
+  </g>
+
+  <!-- CRT scan line — visible only when all bars are shown (keyTime 0.40–0.72) -->
+  <rect x="8" y="42" width="784" height="3" fill="rgba(255,255,255,0.07)" rx="1">
+    <animateTransform attributeName="transform" type="translate" additive="sum"
+      values="0,0;0,190;0,190;0,0;0,0"
+      keyTimes="0;0.55;0.72;0.73;1"
+      dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity"
+      values="0;0;0.6;0.6;0;0"
+      keyTimes="0;0.40;0.42;0.70;0.73;1"
+      dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Blinking cursor at bottom-left -->
+  <rect x="8" y="232" width="7" height="2" fill="#28c840">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+</svg>

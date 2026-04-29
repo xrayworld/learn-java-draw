@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240">
+
+  <!-- Background -->
+  <rect width="800" height="240" fill="#0a0a0a" rx="12"/>
+
+  <!-- Title bar -->
+  <rect width="800" height="38" fill="#161b22" rx="12"/>
+  <rect y="26" width="800" height="12" fill="#161b22"/>
+  <line x1="0" y1="38" x2="800" y2="38" stroke="#30363d" stroke-width="1"/>
+  <circle cx="22" cy="19" r="6" fill="#ff5f57"/>
+  <circle cx="43" cy="19" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="19" r="6" fill="#28c840"/>
+  <text x="400" y="24" text-anchor="middle" fill="#8b949e"
+        font-family="'Courier New',monospace" font-size="12">
+    SolidSnake.java — Java Terminal Pixel Art · x-ray.world
+  </text>
+
+  <!-- Left: title text -->
+  <text x="40" y="112" fill="#3dba8a" font-family="'Courier New',monospace"
+        font-size="50" font-weight="bold" letter-spacing="3">SOLID</text>
+  <text x="40" y="168" fill="#cc2828" font-family="'Courier New',monospace"
+        font-size="50" font-weight="bold" letter-spacing="3">SNAKE</text>
+  <text x="40" y="200" fill="#3b434e" font-family="'Courier New',monospace" font-size="12">
+    System.out.println() · ANSI escape codes · Java
+  </text>
+
+  <!-- ANSI color palette dots -->
+  <rect x="40"  y="215" width="10" height="10" fill="#ff3232"/>
+  <rect x="55"  y="215" width="10" height="10" fill="#ff8c00"/>
+  <rect x="70"  y="215" width="10" height="10" fill="#ffff00"/>
+  <rect x="85"  y="215" width="10" height="10" fill="#32e632"/>
+  <rect x="100" y="215" width="10" height="10" fill="#00f0c8"/>
+  <rect x="115" y="215" width="10" height="10" fill="#328cff"/>
+  <rect x="130" y="215" width="10" height="10" fill="#a032ff"/>
+  <rect x="145" y="215" width="10" height="10" fill="#ff32b4"/>
+
+  <!-- ─── Pixel art snake (x0=530, y0=48, ps=12) ─── -->
+
+  <!-- GREEN body: #3dba8a -->
+  <g fill="#3dba8a">
+    <!-- row 0  cols 4-10  w=84 -->
+    <rect x="578" y="48"  width="84"  height="12"/>
+    <!-- row 1  cols 3-11  w=108 -->
+    <rect x="566" y="60"  width="108" height="12"/>
+    <!-- row 2  cols 2-11  w=120 -->
+    <rect x="554" y="72"  width="120" height="12"/>
+    <!-- row 3  cols 1-12  w=144 -->
+    <rect x="542" y="84"  width="144" height="12"/>
+    <!-- row 4  cols 0-12  w=156 -->
+    <rect x="530" y="96"  width="156" height="12"/>
+    <!-- row 5  cols 0-11  w=144 -->
+    <rect x="530" y="108" width="144" height="12"/>
+    <!-- row 6  cols 0-8   w=108  (upper jaw) -->
+    <rect x="530" y="120" width="108" height="12"/>
+    <!-- row 7  cols 0-3   w=48   (jaw narrows) -->
+    <rect x="530" y="132" width="48"  height="12"/>
+    <!-- row 8  cols 0-3   w=48 -->
+    <rect x="530" y="144" width="48"  height="12"/>
+    <!-- row 9  cols 0-2   w=36 -->
+    <rect x="530" y="156" width="36"  height="12"/>
+    <!-- row 10 cols 0-2   w=36 -->
+    <rect x="530" y="168" width="36"  height="12"/>
+    <!-- row 11 cols 0-1   w=24 -->
+    <rect x="530" y="180" width="24"  height="12"/>
+    <!-- row 12 cols 0-1   w=24 -->
+    <rect x="530" y="192" width="24"  height="12"/>
+  </g>
+
+  <!-- DARK GREEN edge shadow: #1e7a55 -->
+  <g fill="#1e7a55">
+    <!-- right edge shading rows 0-5 -->
+    <rect x="650" y="48"  width="12" height="12"/>
+    <rect x="662" y="60"  width="12" height="12"/>
+    <rect x="662" y="72"  width="12" height="12"/>
+    <rect x="674" y="84"  width="12" height="12"/>
+    <rect x="674" y="96"  width="12" height="12"/>
+    <rect x="662" y="108" width="12" height="12"/>
+    <rect x="626" y="120" width="12" height="12"/>
+  </g>
+
+  <!-- RED mouth interior + tongue: #cc2828 -->
+  <g fill="#cc2828">
+    <!-- row 6  cols 9-12  mouth opens  w=48 -->
+    <rect x="638" y="120" width="48"  height="12"/>
+    <!-- row 7  cols 5-8 (left of right fang)  w=48 -->
+    <rect x="590" y="132" width="48"  height="12"/>
+    <!-- row 7  cols 10-12  w=36 -->
+    <rect x="650" y="132" width="36"  height="12"/>
+    <!-- row 8  cols 5-12  w=96 (under fangs) -->
+    <rect x="590" y="144" width="96"  height="12"/>
+    <!-- row 9  cols 3-12  w=120 -->
+    <rect x="566" y="156" width="120" height="12"/>
+    <!-- row 10 cols 3-10  w=96 -->
+    <rect x="566" y="168" width="96"  height="12"/>
+    <!-- row 11 cols 2-8   w=84  tongue narrows -->
+    <rect x="554" y="180" width="84"  height="12"/>
+    <!-- row 12 cols 4-8   w=60 -->
+    <rect x="578" y="192" width="60"  height="12"/>
+    <!-- row 13 cols 5-7   w=36 -->
+    <rect x="590" y="204" width="36"  height="12"/>
+    <!-- row 14 forked tongue: col 4 and col 8 -->
+    <rect x="578" y="216" width="12"  height="12"/>
+    <rect x="626" y="216" width="12"  height="12"/>
+  </g>
+
+  <!-- WHITE fangs: #e0e0e0 -->
+  <g fill="#e0e0e0">
+    <!-- fang left: rows 7-8, col 4 -->
+    <rect x="578" y="132" width="12" height="12"/>
+    <rect x="578" y="144" width="12" height="12"/>
+    <!-- fang right: row 7, col 9 -->
+    <rect x="638" y="132" width="12" height="12"/>
+  </g>
+
+  <!-- Eye dark: row 2, col 10 -->
+  <rect x="650" y="72" width="12" height="12" fill="#0d1117"/>
+  <!-- Eye highlight -->
+  <rect x="653" y="75" width="5"  height="5"  fill="#7adebc"/>
+
+</svg>

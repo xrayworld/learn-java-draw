@@ -6,8 +6,7 @@
 
 <div align="center">
 
-# SOLIDSNAKE
-# (Tutorial illustration by terminal)
+# Java illustration
 
 *"Hecho por www.x-ray.world"*
 

@@ -6,22 +6,12 @@
 
 <div align="center">
 
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/ANSI_Escape_Codes-FF5500?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="ANSI"/>
-  <img src="https://img.shields.io/badge/Terminal_Pixel_Art-28C840?style=for-the-badge&logo=iterm2&logoColor=white" alt="Terminal Pixel Art"/>
-  <img src="https://img.shields.io/badge/License-Private-555555?style=for-the-badge" alt="License"/>
+# SOLIDSNAKE
+# (Tutorial illustration by terminal)
 
-</div>
+*"Hecho por www.x-ray.world"*
 
 <br/>
-
-<h1 align="center">
-$\Huge \substack{
-\color{#FF5500}{\textsf{Java}} \\
-\color{#888888}{\pmb{\texttt{Illustration with}}} \\
-\color{#888888}{\texttt{System.out.println();}}
-}$
-</h1>
 
 <p align="center">
   <img src="solidsnake.png" alt="Solid Snake — Java Terminal Pixel Art" width="420"/>

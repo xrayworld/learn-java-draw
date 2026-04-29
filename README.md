@@ -1,8 +1,3 @@
-<div align="center">
-  <img src="banner2.svg" alt="Animated banner — Java Terminal Pixel Art" width="100%"/>
-</div>
-
-<br/>
 
 <div align="center">
 
